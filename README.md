@@ -6,7 +6,7 @@ This repository contains workflows and tools for performing alignment and peak c
 
 The workflows are written for analyzing genomic regions of interactions associated with two acyl-lysine histone marks on histones H3 and H4 using PE sequencing with two replicates per histone mark. 
 
-**NOTE:** Alignment and peak calling for 'input' is not included in these workflows, but the same chunks of code can copied and added to the script to analyze the 'input' `fastq` files as well. 
+**NOTE:** Alignment and peak calling for 'input' is not included in these workflows, but the same chunks of code can be copied and added to the script to analyze the 'input' `fastq` files as well. 
 
 Aligned sequence results and peak files in `.bam` and `.narrowPeak` format can then be used to perform downstream statistical analyses such as differential binding, annotation, TSS distribution, as well as pathway and motif enrichment analyses.
 
