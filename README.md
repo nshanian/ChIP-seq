@@ -173,6 +173,9 @@ align2rawsignal # call align2rawsignal
   * I also recommend that you set the `$TMP` environment variable to a valid temporary directory with sufficient disk space (incase it isn't already set).
 `export TMP=<ValidTmpDir>`
 
+To generate mappability tracks using `gem-mappability` in `MACS2_ref.sh`, you would need to install GEM (Genome Multi-tool) from: 
+https://github.com/smarco/gem3-mapper
+
 Please see below for information on other modules used in this workflow.
 
 ## Documentation and References:
