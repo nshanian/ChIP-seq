@@ -10,7 +10,7 @@ The workflows are written to run as batch shell scripts using `SLURM` on a high 
 
 The first `ChIP_align.sh` (or step1) workflow uses `bowtie2` (v2.3.1), and second `ChIP_peakcall.sh` (or step2) uses `MACS2` (v2.1.0), based on the GRCh38/hg38 assembly of the human genome:
   
-https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/.
+https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/
 
 **NOTE:** `ChIP_align.sh` step1 and `ChIP_peakcall.sh` step2 workflows have to be run sequentially, as step2 input files are step1 output files.
 
