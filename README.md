@@ -28,7 +28,7 @@ In addition to `bowtie2` and `MACS2`, the modules in the workflows will require:
 
 `python`, `java`, `cutadapt`, `bedGraphToBigWig`, `align2rawsignal`, `MCR`, `ucsc_tools`, `picard-tools`, and `samtools`. 
 
-##align2rawsignal documentation:
+## align2rawsignal documentation:
 
 Below are system and installation requirements for `align2rawsignal` taken directly from: https://github.com/akundaje/align2rawsignal?tab=readme-ov-file
 
