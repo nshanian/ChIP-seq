@@ -10,11 +10,11 @@ The workflows are written for analyzing genomic regions of interactions associat
 
 Aligned sequence results and peak files in `.bam` and `.narrowPeak` format can then be used to perform downstream statistical analyses such as differential binding, annotation, TSS distribution, as well as pathway and motif enrichment analyses.
 
-The workflows are written to run as shell scripts on a high performance computing (HPC) cluster using `sbatch` and `SLURM`. 
+The workflows are written to run as containerized `SLURM` submission scripts on a high performance computing (HPC) cluster using `sbatch` `script.sh`. 
 
-**NOTE:** `ChIP_align.sh` step1 and `ChIP_peakcall.sh` step2 workflows have to be run sequentially, as step2 input files are step1 output files.
+**NOTE:** `ChIP_align.sh` (step 1) and `ChIP_peakcall.sh` (step 2) workflows have to be run sequentially, as step 1 output files are necessary as input for step 2.
 
-The first `ChIP_align.sh` (or step1) workflow uses `bowtie2` (v2.3.1), and the second `ChIP_peakcall.sh` (or step2) uses `MACS2` (v2.1.0), based on the GRCh38/hg38 assembly of the human genome:
+The first `ChIP_align.sh` workflow uses `bowtie2` (v2.3.1) and the second `ChIP_peakcall.sh` uses `MACS2` (v2.1.0), based on the GRCh38/hg38 assembly of the human genome:
   
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/
 
