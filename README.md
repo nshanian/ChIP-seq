@@ -2,9 +2,15 @@
 
 ## Alignment and Peak Calling
 
-This repository contains workflows and tools for performing alignment and peak calling on paired-end ChIP-seq data. 
+This repository contains workflows and tools for performing alignment and peak calling on paired-end histone ChIP-seq data. 
 
 The workflows can be run on paired-end (PE) or single-end (SE) next-generation sequcning (NGS) files in `.fastq` format.
+
+The workflow is written for acetyl-lysine (Kac) vs propionyl-lysine (Kpr) histone ChIP-seq on H3K18 and H4K12 from paired-end sequencing and n = 2 replicates ber histone mark. 
+
+The results can be used to perform downstream statisitical analyses such differential binding, annotation, TSS distribution, as well as pathway and motif enrichment between Kac and Kpr.
+
+Alignment and peak calling for 'input' is not included in this workflow, but the same commands can copied and added to the script to process the 'input' `fastq` files as well. 
 
 The workflows are written to run as batch shell scripts using `SLURM` on a high performance computing (HPC) cluster. 
 
