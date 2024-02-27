@@ -26,7 +26,7 @@ https://github.com/ENCODE-DCC/chip-seq-pipeline2
 
 In addition to `bowtie2` and `MACS2`, the modules in the workflows will require: 
 
-`python`, `java`, `cutadapt`, `bedGraphToBigWig`, `align2rawsignal`, `MCR`, `ucsc_tools`, `picard-tools`, and `samtools`. 
+`python`, `java`, `cutadapt`, `bedGraphToBigWig`, `align2rawsignal`, `MCR`, `ucsc_tools`, `picard-tools`, and `samtools` programs. 
 
 ## align2rawsignal documentation:
 
