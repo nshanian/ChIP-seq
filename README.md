@@ -8,7 +8,7 @@ The workflows can be run on paired-end (PE) or single-end (SE) next-generation s
 
 The workflows are written to run as batch shell scripts using `SLURM` on a high performance computing (HPC) cluster. 
 
-The first `ChIP_align.sh` (or step1) workflow uses `bowtie2` (v2.3.1), and second `ChIP_peakcall.sh` (or step2) uses MACS2 (v2.1.0), based on the GRCh38/hg38 assembly of the human genome:
+The first `ChIP_align.sh` (or step1) workflow uses `bowtie2` (v2.3.1), and second `ChIP_peakcall.sh` (or step2) uses `MACS2` (v2.1.0), based on the GRCh38/hg38 assembly of the human genome:
   
 https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.40/.
 
