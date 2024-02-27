@@ -8,7 +8,7 @@ The workflows can be run on paired-end (PE) or single-end (SE) next-generation s
 
 The workflow is written for acetyl-lysine (Kac) vs propionyl-lysine (Kpr) histone ChIP-seq on H3K18 and H4K12 from paired-end sequencing and n = 2 replicates ber histone mark. 
 
-The results can be used to perform downstream statisitical analyses such differential binding, annotation, TSS distribution, as well as pathway and motif enrichment between Kac and Kpr.
+The results can be used to perform downstream statisitical analyses such as differential binding, annotation, TSS distribution, as well as pathway and motif enrichment between Kac and Kpr.
 
 Alignment and peak calling for 'input' is not included in this workflow, but the same commands can copied and added to the script to process the 'input' `fastq` files as well. 
 
